@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiCommitSummarizer.Cli", "AiCommitSummarizer.Cli\AiCommitSummarizer.Cli.csproj", "{6232D6DB-64F2-43EF-989F-018CE68D3E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiCommitSummarizer.Core", "AiCommitSummarizer.Core\AiCommitSummarizer.Core.csproj", "{9F81BF70-121F-421C-9CAE-4EBE15143A4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6232D6DB-64F2-43EF-989F-018CE68D3E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6232D6DB-64F2-43EF-989F-018CE68D3E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6232D6DB-64F2-43EF-989F-018CE68D3E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6232D6DB-64F2-43EF-989F-018CE68D3E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F81BF70-121F-421C-9CAE-4EBE15143A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F81BF70-121F-421C-9CAE-4EBE15143A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F81BF70-121F-421C-9CAE-4EBE15143A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F81BF70-121F-421C-9CAE-4EBE15143A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

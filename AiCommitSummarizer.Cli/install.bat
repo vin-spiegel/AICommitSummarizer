@@ -1,3 +1,3 @@
 ﻿dotnet pack
-dotnet tool install --global --add-source ./nupkg CommitGPT.Cli
+dotnet tool install --global --add-source ./nupkg AiCommitSummarizer.Cli
 pause

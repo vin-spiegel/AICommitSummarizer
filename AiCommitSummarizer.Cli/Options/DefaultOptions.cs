@@ -2,7 +2,7 @@
 
 namespace AiCommitSummarizer.Cli.Options;
 
-[Verb("default", HelpText = "Default options.")]
+[Verb("set", HelpText = "Default options.")]
 public class DefaultOptions
 {
     [Option('v', "verbose", Required = false, HelpText = "Set output to verbose messages.")]

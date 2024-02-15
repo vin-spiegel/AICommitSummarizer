@@ -5,8 +5,20 @@ namespace AiCommitSummarizer.Core.Services;
 
 public class GitService : IDisposable
 {
-    private readonly Repository _repo = new(Environment.CurrentDirectory);
+    private readonly Repository _repo;
     private readonly StringBuilder _stringBuilder = new();
+
+    public GitService()
+    {
+        try
+        {
+            _repo = new Repository(Environment.CurrentDirectory);
+        }
+        catch
+        {
+            // onError?.Invoke();
+        }
+    }
     
     public string GetCurrentCommits(int since = 7)
     {

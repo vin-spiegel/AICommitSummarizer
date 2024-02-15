@@ -12,7 +12,7 @@ public class Summarization
         var messages = Prompt.GetPrompt();
         messages.Add(new Message(Role.User, commits));
         
-        var path = PathHelper.GetApiKeySettingsPath();
+        var path = Utils.GetApiKeySettingsPath();
         var api = new OpenAIClient(OpenAIAuthentication.LoadFromDirectory(path));
         var chatRequest = new ChatRequest(messages, Model.GPT3_5_Turbo);
         var choice = await api.ChatEndpoint.GetCompletionAsync(chatRequest);

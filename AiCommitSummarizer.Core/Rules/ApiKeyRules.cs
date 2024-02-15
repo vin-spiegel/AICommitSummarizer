@@ -3,11 +3,11 @@ using OpenAI;
 
 namespace AiCommitSummarizer.Core.Rules;
 
-public class ApiKeyRules
+public static class ApiKeyRules
 {
     public static bool IsValidKey()
     {
-        var path = PathHelper.GetApiKeySettingsPath();
+        var path = Utils.GetApiKeySettingsPath();
         try
         {
             var openAiClient = new OpenAIClient(OpenAIAuthentication.LoadFromDirectory(path));

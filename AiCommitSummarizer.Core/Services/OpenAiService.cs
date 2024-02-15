@@ -8,7 +8,7 @@ public class OpenAiService
 {
     public void SetApiKey(string apiKey, string organizationId = "")
     {
-        File.WriteAllText(PathHelper.GetApiKeySettingsPath(), new CamelCaseJsonSerializer().Serialize(new OpenAiApiKeyModel
+        File.WriteAllText(Utils.GetApiKeySettingsPath(), new CamelCaseJsonSerializer().Serialize(new OpenAiApiKeyModel
         {
             ApiKey = apiKey,
             Organization = organizationId

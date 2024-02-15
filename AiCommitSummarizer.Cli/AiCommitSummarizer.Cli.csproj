@@ -7,7 +7,7 @@
         <Nullable>enable</Nullable>
         <RootNamespace>AiCommitSummarizer.Cli</RootNamespace>
         <PackAsTool>true</PackAsTool>
-        <ToolCommandName>summ</ToolCommandName>
+        <ToolCommandName>summarize</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
     </PropertyGroup>
 

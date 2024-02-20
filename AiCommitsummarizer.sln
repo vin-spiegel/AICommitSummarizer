@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiCommitSummarizer.Cli", "AiCommitSummarizer.Cli\AiCommitSummarizer.Cli.csproj", "{6232D6DB-64F2-43EF-989F-018CE68D3E02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiCommitSummarizer.Cli", "src\AiCommitSummarizer.Cli\AiCommitSummarizer.Cli.csproj", "{6232D6DB-64F2-43EF-989F-018CE68D3E02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiCommitSummarizer.Core", "AiCommitSummarizer.Core\AiCommitSummarizer.Core.csproj", "{9F81BF70-121F-421C-9CAE-4EBE15143A4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiCommitSummarizer.Core", "src\AiCommitSummarizer.Core\AiCommitSummarizer.Core.csproj", "{9F81BF70-121F-421C-9CAE-4EBE15143A4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

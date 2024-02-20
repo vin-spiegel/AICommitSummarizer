@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <Version>1.0.1</Version>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>AiCommitSummarizer.Cli</RootNamespace>
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>summarize</ToolCommandName>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/vin-spiegel/AICommitSummarizer</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.9.1" />
+      <None Include="../LICENSE" Pack="true" PackagePath="\"/>
+      <None Include="../README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AiCommitSummarizer.Core\AiCommitSummarizer.Core.csproj" />
+    </ItemGroup>
+
+</Project>

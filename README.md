@@ -7,7 +7,7 @@ AI Commit Summarizer is a command-line interface (CLI) tool designed to summariz
 To install AI Commit Summarizer, use the following command:
 
 ```
-dotnet tool install --global AiCommitSummarizer.Cli --version 1.0.0
+dotnet tool install --global AiCommitSummarizer.Cli
 ```
 
 ## Usage
